@@ -5,9 +5,6 @@ function handleButtonClick(event) {
   audioElement.play();
 }
 
-var ac = (window.AudioContext || window.webkitAudioContext);
-var ctx = new ac();
-
 var noisesXhr = new XMLHttpRequest();
 
 noisesXhr.addEventListener('load', function() {
@@ -31,15 +28,11 @@ noisesXhr.addEventListener('load', function() {
     }
 
     var button = document.createElement('button');
-    var audioElement = document.createElement('audio');
-    audioElement.src = url;
+    var audioElement = new Audio(url);
 
     button.appendChild(audioElement);
     button.appendChild(document.createTextNode(name));
     currentCategoryElement.appendChild(button);
-
-    var track = ctx.createMediaElementSource(audioElement);
-    track.connect(ctx.destination);
 
     button.addEventListener('click', handleButtonClick);
   }
