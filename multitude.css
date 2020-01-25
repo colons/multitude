@@ -14,9 +14,27 @@ body {
   padding: 1em;
 }
 
+h2::before {
+  display: inline-block;
+  color: #999;
+  content: '-';
+  width: 1em;
+  text-align: center;
+}
+
+h2.expanded::before {
+  content: '|';
+}
+
 .buttons {
   display: flex;
   flex-wrap: wrap;
+  height: 0;
+  overflow: hidden;
+}
+
+.buttons.expanded {
+  height: auto;
 }
 
 a {
