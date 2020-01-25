@@ -2,6 +2,7 @@ announcer:choose your fighter.mp3
 announcer:failure.mp3
 announcer:nailed it.mp3
 banjo:guh huh.mp3
+banjo:help.mp3
 effects:airhorn.mp3
 eggman:aha.mp3
 eggman:hahahaha.mp3
