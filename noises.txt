@@ -26,4 +26,5 @@ shulk:now it's shulk time.mp3
 shulk:this is a good result.mp3
 shulk:this is the monado's power.mp3
 smash mouth:some.mp3
+snake eater:what a thrill.mp3
 sonic:you're too slow.mp3
