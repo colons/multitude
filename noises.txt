@@ -7,16 +7,23 @@ banjo:guh huh.mp3
 banjo:help.mp3
 effects:airhorn.mp3
 eggman:aha.mp3
+eggman:all systems, full power!.mp3
+eggman:get a load of this.mp3
 eggman:hahahaha.mp3
 eggman:i will.mp3
+eggman:i win, muahahah.mp3
 eggman:it's no use, give up.mp3
 eggman:no way, i can't believe this.mp3
 eggman:wah, what a piece of junk.mp3
 eggman:you little fucks.mp3
 inkling:squee sqee.mp3
 inkling:woomy.mp3
+shulk:air slash.mp3
+shulk:back slash.mp3
 shulk:i'm really feeling it.mp3
+shulk:not good.mp3
 shulk:now it's shulk time.mp3
+shulk:this is a good result.mp3
 shulk:this is the monado's power.mp3
 smash mouth:some.mp3
 sonic:you're too slow.mp3
