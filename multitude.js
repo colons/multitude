@@ -5,6 +5,12 @@ function handleButtonClick(event) {
   audioElement.play();
 }
 
+function toggleSectionCollapse(event) {
+  var heading = event.target;
+  heading.classList.toggle('expanded');
+  heading.nextSibling.classList.toggle('expanded');
+}
+
 var noisesXhr = new XMLHttpRequest();
 
 noisesXhr.addEventListener('load', function() {
@@ -22,6 +28,7 @@ noisesXhr.addEventListener('load', function() {
       currentCategoryElement = document.createElement('div');
       currentCategoryElement.classList.add('buttons');
       var categoryHeading = document.createElement('h2');
+      categoryHeading.addEventListener('click', toggleSectionCollapse);
       categoryHeading.appendChild(document.createTextNode(category));
       document.body.appendChild(categoryHeading);
       document.body.appendChild(currentCategoryElement);
