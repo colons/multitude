@@ -1,3 +1,4 @@
+YKZ:yeah it's well wicked.mp3
 announcer:choose your fighter.mp3
 announcer:congratulations.mp3
 announcer:failure.mp3
