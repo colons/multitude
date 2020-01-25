@@ -1,7 +1,7 @@
 function handleButtonClick(event) {
   var button = event.target;
   var audioElement = button.querySelector('audio');
-  audioElement.fastSeek(0);
+  audioElement.currentTime = 0;
   audioElement.play();
 }
 
