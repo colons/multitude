@@ -19,6 +19,7 @@ eggman:you little fucks.mp3
 giant bomb:vinny's a wizard, and that looks fucked up.mp3
 inkling:squee sqee.mp3
 inkling:woomy.mp3
+shadow:silence, brand.mp3
 shulk:air slash.mp3
 shulk:back slash.mp3
 shulk:i'm really feeling it.mp3
