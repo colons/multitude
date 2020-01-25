@@ -2,29 +2,30 @@
   margin: 0;
   padding: 0;
   border: none;
+  font-family: sans-serif;
 }
 
 body {
   background-color: #222;
   color: #eee;
   font-size: 1.2em;
-}
-
-section {
   max-width: 30em;
   margin: 0 auto;
   padding: 1em;
 }
 
-button {
-  display: inline-block;
-  width: 9em;
-  height: 5em;
-  margin: .5em;
-  vertical-align: top;
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  flex-grow: 1;
   border: none;
   background-color: #ccc;
   color: #222;
-  padding: .2em 1em;
+  padding: .5em 1em;
+  margin: 0 .5em .5em 0;
+  border-radius: .5em;
   text-align: center;
 }

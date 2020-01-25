@@ -19,15 +19,16 @@ noisesXhr.addEventListener('load', function() {
     var name = filenames[i].split(':')[1].split('.')[0];
 
     if (category !== currentCategory) {
-      currentCategoryElement = document.createElement('section');
+      currentCategoryElement = document.createElement('div');
+      currentCategoryElement.classList.add('buttons');
       var categoryHeading = document.createElement('h2');
       categoryHeading.appendChild(document.createTextNode(category));
-      currentCategoryElement.appendChild(categoryHeading);
+      document.body.appendChild(categoryHeading);
       document.body.appendChild(currentCategoryElement);
       currentCategory = category;
     }
 
-    var button = document.createElement('button');
+    var button = document.createElement('a');
     var audioElement = new Audio(url);
 
     button.appendChild(audioElement);
