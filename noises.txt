@@ -20,6 +20,13 @@ eggman:you little fucks.mp3
 giant bomb:vinny's a wizard, and that looks fucked up.mp3
 inkling:squee sqee.mp3
 inkling:woomy.mp3
+shadow:chaos control.mp3
+shadow:huh, how pathetic.mp3
+shadow:i don't think so.mp3
+shadow:i'm not interested.mp3
+shadow:i'm the coolest.mp3
+shadow:let's ditch these guys and blow this city.mp3
+shadow:not like this.mp3
 shadow:silence, brand.mp3
 shulk:air slash.mp3
 shulk:back slash.mp3
@@ -30,4 +37,5 @@ shulk:this is a good result.mp3
 shulk:this is the monado's power.mp3
 smash mouth:some.mp3
 snake eater:what a thrill.mp3
+sonic:i'll make you eat those words.mp3
 sonic:you're too slow.mp3
