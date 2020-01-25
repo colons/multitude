@@ -5,6 +5,8 @@ announcer:nailed it.mp3
 announcer:wow! incredible!.mp3
 banjo:guh huh.mp3
 banjo:help.mp3
+domon kasshu:kyouji.mp3
+domon kasshu:with the help of kyouji.mp3
 effects:airhorn.mp3
 eggman:aha.mp3
 eggman:all systems, full power!.mp3
