@@ -39,3 +39,8 @@ smash mouth:some.mp3
 snake eater:what a thrill.mp3
 sonic:i'll make you eat those words.mp3
 sonic:you're too slow.mp3
+tails:help me.mp3
+tails:look at all those eggman's robots.mp3
+tails:now we gotta attack the body.mp3
+tails:they're all dead.mp3
+tails:wow, my head's spinning.mp3
