@@ -1,6 +1,8 @@
 announcer:choose your fighter.mp3
+announcer:congratulations.mp3
 announcer:failure.mp3
 announcer:nailed it.mp3
+announcer:wow! incredible!.mp3
 banjo:guh huh.mp3
 banjo:help.mp3
 effects:airhorn.mp3
@@ -9,4 +11,7 @@ eggman:hahahaha.mp3
 eggman:i will.mp3
 eggman:it's no use, give up.mp3
 eggman:no way, i can't believe this.mp3
+eggman:wah, what a piece of junk.mp3
 eggman:you little fucks.mp3
+smash mouth:some.mp3
+sonic:you're too slow.mp3
