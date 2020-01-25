@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  background-color: #222;
+  color: #eee;
+  font-size: 1.2em;
+}
+
+section {
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+button {
+  display: inline-block;
+  width: 9em;
+  height: 5em;
+  margin: .5em;
+  vertical-align: top;
+  border: none;
+  background-color: #ccc;
+  color: #222;
+  padding: .2em 1em;
+  text-align: center;
+}

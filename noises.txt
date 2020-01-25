@@ -1,0 +1,5 @@
+eggman:aha.mp3
+eggman:hahahaha.mp3
+eggman:i will.mp3
+eggman:no way, i can't believe this.mp3
+eggman:you little fucks.mp3
