@@ -13,5 +13,10 @@ eggman:it's no use, give up.mp3
 eggman:no way, i can't believe this.mp3
 eggman:wah, what a piece of junk.mp3
 eggman:you little fucks.mp3
+inkling:squee sqee.mp3
+inkling:woomy.mp3
+shulk:i'm really feeling it.mp3
+shulk:now it's shulk time.mp3
+shulk:this is the monado's power.mp3
 smash mouth:some.mp3
 sonic:you're too slow.mp3
