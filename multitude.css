@@ -27,13 +27,13 @@ h2 {
 h2::before {
   display: inline-block;
   color: #999;
-  content: '-';
+  content: '+';
   width: 1em;
   text-align: center;
 }
 
 h2.expanded::before {
-  content: '|';
+  content: '-';
 }
 
 .buttons {
