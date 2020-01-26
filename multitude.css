@@ -19,6 +19,11 @@ a[href] {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 1.2em;
+  margin: .3em 0 .2em;
+}
+
 h2::before {
   display: inline-block;
   color: #999;
