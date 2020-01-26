@@ -5,7 +5,7 @@ function toggleExpansion(heading) {
 
 function handleButtonClick(event) {
   event.preventDefault();
-  var button = event.target;
+  var button = event.currentTarget;
   var audioElement = button.querySelector('audio');
   audioElement.currentTime = 0;
   audioElement.play();
@@ -13,8 +13,7 @@ function handleButtonClick(event) {
 
 function toggleSectionCollapse(event) {
   event.preventDefault();
-  var headingLink = event.target;
-  toggleExpansion(event.target.parentNode);
+  toggleExpansion(event.currentTarget.parentNode);
 }
 
 function everythingShouldBeExpanded(expanded) {
@@ -24,6 +23,20 @@ function everythingShouldBeExpanded(expanded) {
       toggleExpansion(headings[i]);
     }
   }
+}
+
+function updateProgress(event) {
+  var audio = event.currentTarget;
+  var progressElement = audio.parentNode.querySelector('.progress');
+  var progress;
+
+  if (audio.ended || audio.paused) {
+    progress = 0;
+  } else {
+    progress = audio.currentTime / audio.duration;
+  }
+
+  progressElement.style.width = (progress * 100).toString(10) + '%';
 }
 
 document.getElementById('expand-all').addEventListener('click', function(event) {
@@ -66,12 +79,21 @@ noisesXhr.addEventListener('load', function() {
     var button = document.createElement('a');
     button.href = '#';
     var audioElement = new Audio(url);
+    audioElement.addEventListener('timeupdate', updateProgress);
+    audioElement.addEventListener('durationchange', updateProgress);
+    audioElement.addEventListener('playing', updateProgress);
+    audioElement.addEventListener('ended', updateProgress);
 
     button.appendChild(audioElement);
     button.appendChild(document.createTextNode(name));
-    currentCategoryElement.appendChild(button);
+
+    var progress = document.createElement('div');
+    progress.classList.add('progress');
+    button.appendChild(progress);
 
     button.addEventListener('click', handleButtonClick);
+
+    currentCategoryElement.appendChild(button);
   }
 });
 

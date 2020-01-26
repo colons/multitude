@@ -56,4 +56,16 @@ h2.expanded::before {
   margin: 0 .5em .5em 0;
   border-radius: .5em;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons a .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #d66;
+  opacity: .3;
 }
