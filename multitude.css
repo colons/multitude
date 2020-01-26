@@ -14,6 +14,11 @@ body {
   padding: 1em;
 }
 
+a[href] {
+  color: #d66;
+  text-decoration: none;
+}
+
 h2::before {
   display: inline-block;
   color: #999;
@@ -37,7 +42,7 @@ h2.expanded::before {
   height: auto;
 }
 
-a {
+.buttons a {
   flex-grow: 1;
   border: none;
   background-color: #ccc;
