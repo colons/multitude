@@ -95,6 +95,8 @@ noisesXhr.addEventListener('load', function() {
 
     currentCategoryElement.appendChild(button);
   }
+
+  everythingShouldBeExpanded(true);
 });
 
 noisesXhr.open('GET', 'noises.txt');
