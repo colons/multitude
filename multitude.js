@@ -58,7 +58,7 @@ noisesXhr.addEventListener('load', function() {
 
   for(var i = 0; i < filenames.length; i++) {
     if (!filenames[i]) continue;
-    url = 'noises/' + filenames[i];
+    url = 'noises/' + encodeURIComponent(filenames[i]);
     var category = filenames[i].split(':')[0];
     var name = filenames[i].split(':')[1].split('.')[0];
 
@@ -77,7 +77,7 @@ noisesXhr.addEventListener('load', function() {
     }
 
     var button = document.createElement('a');
-    button.href = '#';
+    button.href = url;
     var audioElement = new Audio(url);
     audioElement.addEventListener('timeupdate', updateProgress);
     audioElement.addEventListener('durationchange', updateProgress);
